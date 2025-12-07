@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+  font-family:'ejaaz-custom-font';
+  src: url('../../public/font/pacifico/Pacifico.ttf'), format('TTF');
+}
+a{
+  color: green;
+  font-family:'ejaaz-custom-font';
+}
+.nav {
+  position:fixed;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  backdrop-filter: blur(5px); 
+  border: 2px solid transparent;
+  border-radius: 50px;
+  height: 70px;
+  width: 90%;
+  padding: 0 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+.nav, a:hover{
+   cursor: url('../../public/icons/HANDS\ CURSOR\ 2.cur') , pointer;
+}
+
+ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+  
+}
+a{
+  height: 30px;
+  color: #000; 
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+  transition: color 0.3s ease-in;
+  border-bottom: 1px solid rgb(19, 17, 129);
+}
+a:hover {
+  padding-bottom: 0.2rem;
+  transform:  translateY(-7px);
+  color:rgb(19, 17, 129);
+  border-bottom: 1px solid rgb(19, 17, 129);
+  border-bottom-width: 0.1rem;
+}
+.logo {
+  width: 170px;
+  color: #2DD4BF; 
+  font-weight: bold;
+}
+.nav .logo:hover{
+  cursor: default;
+}
