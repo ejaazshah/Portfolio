@@ -1,3 +1,7 @@
+@font-face {
+  font-family:'ejaaz-custom-font';
+  src: url('../../public/font/pacifico/Pacifico.ttf'), format('TTF');
+}
 .hero-section{
   display: flex;
   justify-content:space-around;
@@ -16,6 +20,7 @@
   gap: 2rem;
   padding-top:3rem;
   flex-wrap: wrap;
+  border-radius: 1.2rem;
 }
 .main-div-font-style{
   font-family: 'ejaaz-custom-font' , sans-serif;

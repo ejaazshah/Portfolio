@@ -38,11 +38,11 @@ ul{
 a{
   height: 30px;
   color: #000; 
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   letter-spacing: 0.2rem;
   font-weight: 700;
   transition: color 0.3s ease-in;
-  border-bottom: 1px solid rgb(19, 17, 129);
+  border-bottom: 1.5px solid rgb(19, 17, 129);
 }
 a:hover {
   padding-bottom: 0.2rem;
