@@ -6,7 +6,7 @@ function nav(){
      <img class="logo" src={logo} alt=""></img>
    <nav className=''>
       <ul>
-        <a  href="#">Home</a>
+        <a  href="#" className='ejaaz-custom-font'>Home</a>
         <a  href="#">About</a>
         <a href="#">Projects</a>
         <a href="#">Contact</a>

@@ -2,6 +2,9 @@
   font-family:'ejaaz-custom-font';
   src: url('../../public/font/pacifico/Pacifico.ttf'), format('TTF');
 }
+.h1{
+  font-family: 'ejaaz-custom-font';
+}
 .hero-section{
   display: flex;
   justify-content:space-around;

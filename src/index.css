@@ -1,3 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'ejaaz-custom-font';
+  src: url('../public/font/pacifico/Pacifico.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 *{
   margin: 0;
   padding: 0;

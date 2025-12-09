@@ -5,7 +5,7 @@
   src: url('../../public/font/pacifico/Pacifico.ttf'), format('TTF');
 }
 a{
-  color: green;
+  /* color: green; */
   font-family:'ejaaz-custom-font';
 }
 .nav {
