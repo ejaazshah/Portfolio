@@ -3,7 +3,7 @@ import logo from '../../public/logo/EjaazShahlogo/vector/default-monochrome-blac
 function nav(){
   return (
     <header className='nav'>
-     <img class="logo" src={logo} alt=""></img>
+     <img className="logo" src={logo} alt=""></img>
    <nav className=''>
       <ul>
         <a  href="#" className='ejaaz-custom-font'>Home</a>

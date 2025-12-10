@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+  font-family:'ejaaz-custom-font';
+  src: url('../../public/font/pacifico/Pacifico.ttf'), format('TTF');
+}
+.contact{
+  /* position:relative; */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  margin-top: 3.6rem;
+  padding-top: 7rem;
+  display: flex;
+  padding: 2rem;
+  /* height: 100vh; */
+  flex-direction:column ;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+form{
+  position: relative;
+}
+.contact >h1{
+  font-size: 3rem;
+  font-family: 'ejaaz-custom-font';
+  color: rgb(19, 17, 129);
+  border-bottom: 2px solid rgb(19, 17, 129);
+  width: 16rem;
+  /* margin-bottom: 1rem; */
+  align-self: flex-start;
+  
+}
+.contact > h2{
+  font-size: 4rem;
+  font-family: 'ejaaz-custom-font';
+}
+label{
+  display: block;
+  background-color: transparent;
+  width: 25rem;
+  margin-top: 0.2rem;
+  /* color: #fff; */
+  font-size: 1.4rem;
+  
+}
+input{
+  /* position: absolute; */
+  width: 25rem;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid black;
+  height: 2rem;
+  padding: 0px 0px 0px 1.3rem;
+  /* background-color: #333; */
+  border: 2px solid rgb(19, 17, 129);
+  margin-top: 0.2rem;
+  font-size: 1rem;
+}
+input:focus{
+  border-color: rgb(19, 17, 129);
+
+}
+textarea{
+  display: block;
+  width: 25rem;
+  margin-top: 0.2rem;
+  background-color: transparent;
+  /* margin-left: 4rem; */
+  padding: 10px;
+  padding-left: 1.4rem;
+  border: 2px solid rgb(19, 17, 129);
+  color: #000;
+  font-size: 1rem;
+  font-family: sans-serif;
+  height: 5rem;
+  resize: none;
+
+}
+
+.contact-btn{
+  padding: 0.3rem;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  margin-top: 1rem;
+  background-color:rgb(19, 17, 129) ;
+  font-family: 'ejaaz-custom-font';
+  color: #fff;
+  align-self: center;
+  font-size: 1.5rem;
+}
+.contact-btn:hover{
+  border: 1px solid rgb(19, 17, 129);
+  cursor:url('../img/icons/HANDS\ CURSOR\ 2.cur'), default;
+  color:#a1a1a1;
+  padding: 0.3rem;
+}
+.name-div{
+  position: relative;
+}
+.fa-user-tie{
+  position: absolute;
+  top: 2.2rem;
+  left: 0.3rem;
+  z-index: 2;
+}
+
+
+.email-div{
+  position: relative;
+}
+.fa-envelope{
+  position: absolute;
+  top: 2.2rem;
+  left: 0.3rem;
+}
+.phone-div{
+  position: relative;
+}
+.fa-phone{
+  position: absolute;
+  top: 2.2rem;
+  left: 0.3rem;
+}
+
+
+.msg-div{
+  position: relative;
+}
+.fa-comment{
+  position: absolute;
+  top: 2.6rem;
+  left: 0.3rem;
+}
+
+
+
+@media (max-width: 414px) {
+  .contact{
+    display: flex;
+    padding-top:1rem ;
+    width: 100vw;
+    border-radius: 1.2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact h1{
+    font-size: 1.3rem;
+    font-weight: 900;
+    /* border-bottom: 2px solid  rgb(19, 17, 129); */
+    width: 6.9rem;
+    margin-bottom: 0.5rem;
+  }
+  .contact h2{
+    font-weight: 700;
+    font-size: 1.3rem;
+  }
+  input{
+    width: 16rem;
+    margin-left: 5rem;
+    padding: 0px 0px 0px 0.3rem;
+  }
+  label{
+    margin-left: 5rem;
+  }
+  textarea{
+    width: 20rem;
+    margin-left: 5rem;
+    padding: 0.3px 0px 0px 0.3rem;
+  }
+  .contact-btn{
+    font-size: 1.2rem;
+    margin-left:5rem;
+    margin-top: 1.2rem;
+  }
+
+
+}
+
+@media (max-width: 320px) {
+  .contact{
+    display: flex;
+    padding-top:1rem ;
+    width: 25.5rem;
+    border-radius: 1.2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact h1{
+    font-size: 1.3rem;
+    font-weight: 900;
+    border-bottom: 2px solid  rgb(19, 17, 129);
+    width: 6.9rem;
+    margin-bottom: 0.5rem;
+  }
+  .contact h2{
+    font-weight: 700;
+    font-size: 1.3rem;
+  }
+  input{
+    width: 16rem;
+    margin-left: 3rem;
+    padding: 0px 0px 0px 0.3rem;
+  }
+  label{
+    margin-left: 3rem;
+  }
+  textarea{
+    width: 20rem;
+    margin-left: 3rem;
+    padding: 0.3px 0px 0px 0.3rem;
+  }
+  .contact-btn{
+    font-size: 1.2rem;
+    margin-left:10rem;
+    margin-top: 1.2rem;
+  }
+
+
+}
+
+@media(max-width: 414px){
+  .contact{
+    width: 25.5rem;
+  }
+}
