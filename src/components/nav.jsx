@@ -1,19 +1,20 @@
 import './nav.css'
 import logo from '../../public/logo/EjaazShahlogo/vector/default-monochrome-black.svg'
-function nav(){
+import A from './a';
+import {links} from '../data/links'
+function Nav(){
   return (
     <header className='nav'>
      <img className="logo" src={logo} alt=""></img>
    <nav className=''>
       <ul>
-        <a  href="#" className='ejaaz-custom-font'>Home</a>
-        <a  href="#">About</a>
-        <a href="#">Projects</a>
-        <a href="#">Contact</a>
+          {
+            links.map((link, index)=> (<a key={index}>{link.name}</a>) )
+          }
       </ul>
     </nav>
     </header>
   )
 }
 
-export default nav;
+export default Nav;

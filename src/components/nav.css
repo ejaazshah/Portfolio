@@ -15,16 +15,15 @@ a{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: transparent;
+  background-color: #fff;
   backdrop-filter: blur(5px); 
   border: 2px solid transparent;
   border-radius: 50px;
   height: 70px;
   width: 90%;
   padding: 0 2rem;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
   margin-top: 0.5rem;
-  
 }
 .nav, a:hover{
    cursor: url('../../public/icons/HANDS\ CURSOR\ 2.cur') , pointer;
@@ -43,7 +42,7 @@ a{
   font-size: 1.3rem;
   letter-spacing: 0.2rem;
   font-weight: 700;
-  transition: color 0.3s ease-in;
+  transition: color 0.3s ease-in-out;
   border-bottom: 1.5px solid rgb(19, 17, 129);
 }
 a:hover {
@@ -67,6 +66,8 @@ a:hover {
 
 
 
+
+
 @media (max-width: 768px) {
   .nav{
     flex-direction: column;
@@ -80,7 +81,7 @@ a:hover {
     display: none;
   }
   ul > a{
-    font-size: 0.8rem;
+    font-size: 1rem;
     letter-spacing: 0;
     font-weight: 700;
     border-bottom: none ;
@@ -110,7 +111,8 @@ a:hover {
 
 @media(min-width: 768px){
   .logo{
-    width: 10rem;
+    width: 8rem;
+    height: 2rem;
   }
    ul{
     gap:30px;
@@ -118,6 +120,18 @@ a:hover {
    }
    .nav ul a {
     font-weight: 900;
-    font-size: 1.2rem;
+    font-size: 1rem;
+   }
+}
+
+@media(min-width:1024px){
+  .nav ul a {
+    font-weight: 900;
+    font-size: 1.3rem;
+   }
+   .logo{
+    font-size:2rem;
+    font-weight: bolder;
+    /* width: 17rem; */
    }
 }

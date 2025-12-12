@@ -12,12 +12,13 @@
 .contact {
   margin-top: 3.6rem;
   padding: 2rem 2rem 2rem 2rem;
-  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
   border-radius: 1.2rem;
+  margin-bottom: 1rem;
 }
 
 /* Title */
@@ -34,7 +35,9 @@
 .contact > h2 {
   font-size: 4rem;
   font-family: 'ejaaz-custom-font';
-  align-self: flex-start;
+  align-self:center;
+  margin-bottom: 1rem;
+  
 }
 
 /* Form */
@@ -88,11 +91,25 @@ textarea {
 
 
 .contact-btn:hover {
-  opacity: 0.8;
+  /* opacity: 0.8; */
   border: 1px solid rgb(19, 17, 129);
   cursor: url('../../public/icons/HANDS CURSOR 2.cur'), default;
   color: #a1a1a1;
   
+}
+
+#con{
+  border: none;
+  color: #fff;
+  transition: color 0.3s ease-in-out;
+}
+
+
+#con:hover {
+  border: 1px solid rgb(19, 17, 129);
+  cursor: url('../../public/icons/HANDS CURSOR 2.cur'), default;
+  color: #a1a1a1;
+  border: none;
 }
 
 /* Icons inside input */
