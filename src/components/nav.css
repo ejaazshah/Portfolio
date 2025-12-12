@@ -67,7 +67,7 @@ a:hover {
 
 
 
-@media (max-width: 414px) {
+@media (max-width: 768px) {
   .nav{
     flex-direction: column;
     width: 90%;
@@ -82,8 +82,42 @@ a:hover {
   ul > a{
     font-size: 0.8rem;
     letter-spacing: 0;
-    font-weight: 900;
+    font-weight: 700;
     border-bottom: none ;
 
   }
+}
+
+@media(max-width:414px){
+  ul{
+    gap: 20px;
+  }
+  ul > a{
+    font-size: 0.8;
+  }
+}
+/* 
+@media(max-width:314){
+  ul{
+    gap: 10px;
+  }
+  .nav ul > a{
+    font-size: 10px;
+    background-color: red;
+  }
+} */
+
+
+@media(min-width: 768px){
+  .logo{
+    width: 10rem;
+  }
+   ul{
+    gap:30px;
+
+   }
+   .nav ul a {
+    font-weight: 900;
+    font-size: 1.2rem;
+   }
 }

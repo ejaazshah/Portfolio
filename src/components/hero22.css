@@ -1,0 +1,141 @@
+@font-face {
+  font-family:'ejaaz-custom-font';
+  src: url('../../public/font/pacifico/Pacifico.ttf'), format('TTF');
+}
+
+/* Default mobile-first (phones 360px–480px) */
+.main-container {
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.hero-section {
+  width: 100%;
+  /* display: flex; */
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  /* align-items: flex-start; */
+  /* margin-top: 5rem; */
+  padding: 1.5rem 1.5rem;
+  gap: -2rem;
+  border-radius: 1.2rem;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+
+.h1 {
+  font-family: 'ejaaz-custom-font';
+  font-size: 1.3rem;
+}
+
+.h3 {
+  font-size: 1.15rem;
+  margin-top: 0.2rem;
+}
+
+.main-div-font-style {
+  font-family: 'ejaaz-custom-font', sans-serif;
+}
+
+.hero-para {
+  font-size: 0.9rem;
+  font-family: 'poppins';
+  font-weight: 400;
+  text-align: left;
+  margin-top: 0.3rem;
+}
+
+.hero-lets {
+  color: rgb(19, 17, 129);
+  font-weight: 900;
+  font-size: 1.5rem;
+  /* margin-bottom: 2rem; */
+}
+
+.hero-btn{
+  display: inline-block;
+  padding: 0.3rem;
+  /* border: 1px solid transparent; */
+  border-radius: 30px;
+  margin-top: 2rem;
+  background-color: rgb(19, 17, 129);
+  font-family: 'ejaaz-custom-font';
+  color: #fff;
+  font-size: 1.2rem;
+}
+#con{
+  border: none;
+  color: #fff;
+}
+
+
+#con:hover {
+  border: 1px solid rgb(19, 17, 129);
+  cursor: url('../../public/icons/HANDS CURSOR 2.cur'), default;
+  color: #a1a1a1;
+  border: none;
+}
+
+.img-hero > img {
+  width: 17rem;
+  /* height: 10rem; */
+  /* display: none; */
+  border-radius: 15px;
+}
+
+/* Hide image on small phones */
+.img-hero {
+  display: none;
+}
+
+
+
+@media (min-width: 480px) {
+  .h1 { font-size: 1.5rem; }
+  .h3 { font-size: 1.3rem; }
+  .hero-para { font-size: 1rem; }
+  .hero-lets{
+    font-size: 1.6rem;
+  }
+}       
+
+@media (min-width: 768px) {
+  .hero-section {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .img-hero {
+    display: block;
+  }
+
+  .img-hero img {
+    width: 18rem;
+  }
+  .h1{
+    font-size: 2rem;
+  }
+  .h3{
+    font-size: 1.5rem;
+  }
+    .hero-lets{
+    font-size: 1.7rem;
+  }
+}         
+
+
+@media (min-width: 1024px) {
+  .h1 { font-size: 2.3rem; }
+  .h3 { font-size: 1.9rem; }
+  .hero-para { font-size: 1.5rem; }
+  .img-hero img { width: 22rem; }
+  .btn-hero{
+    font-size: 1.5rem;
+  }
+  .hero-lets{
+    font-size: 2.2rem;
+  }
+}
+ 

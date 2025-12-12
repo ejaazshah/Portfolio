@@ -1,4 +1,4 @@
-import './contact.css'
+import './contact22.css'
 function Contact() {
   return (
     <div className="contact" id="contact">

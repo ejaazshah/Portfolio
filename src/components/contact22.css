@@ -1,0 +1,188 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Custom font */
+@font-face {
+  font-family: 'ejaaz-custom-font';
+  src: url('/font/pacifico/Pacifico.ttf') format('truetype');
+}
+
+/* ------------- CONTACT SECTION ------------- */
+
+.contact {
+  margin-top: 3.6rem;
+  padding: 2rem 2rem 2rem 2rem;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border-radius: 1.2rem;
+}
+
+/* Title */
+.contact > h1 {
+  font-size: 3rem;
+  font-family: 'ejaaz-custom-font';
+  color: rgb(19,17,129);
+  border-bottom: 2px solid rgb(19,17,129);
+  width: auto;
+  margin-bottom: 1rem;
+  align-self: flex-start;
+}
+
+.contact > h2 {
+  font-size: 4rem;
+  font-family: 'ejaaz-custom-font';
+  align-self: flex-start;
+}
+
+/* Form */
+form {
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: relative;
+}
+
+/* Labels */
+label {
+  font-size: 1.1rem;
+  display: block;
+  color: #333;
+}
+
+/* Inputs */
+input,
+textarea {
+  width: 100%;
+  border: 2px solid rgb(19,17,129);
+  background: transparent;
+  border-radius: 8px;
+  font-size: 1rem;
+  padding-left: 0.6rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
+textarea {
+  height: 6rem;
+  padding-top: 0.8rem;
+  resize: none;
+}
+
+/* Contact button */
+.contact-btn {
+  padding: 0.6rem 1.3rem;
+  background-color: rgb(19,17,129);
+  border: none;
+  border-radius: 30px;
+  font-size: 1.5rem;
+  font-family: 'ejaaz-custom-font';
+  color: white;
+  align-self: center;
+  cursor: pointer;
+}
+
+
+.contact-btn:hover {
+  opacity: 0.8;
+  border: 1px solid rgb(19, 17, 129);
+  cursor: url('../../public/icons/HANDS CURSOR 2.cur'), default;
+  color: #a1a1a1;
+  
+}
+
+/* Icons inside input */
+.name-div,
+.email-div,
+.phone-div,
+.msg-div {
+  position: relative;
+}
+
+.name-div i,
+.email-div i,
+.phone-div i,
+.msg-div i {
+  position: absolute;
+  top: 50%;
+  left: 0.6rem;
+  transform: translateY(-50%);
+  color: rgb(19,17,129);
+}
+
+/* Textarea icon fix */
+.msg-div i {
+  top: 1.2rem;
+}
+
+
+
+
+
+
+
+/* Small phones (Android, iPhone SE) */
+@media (max-width: 568px) { 
+  /* i made 430 to 480  */
+  .contact {
+    padding-top: 3rem;
+  }
+
+  .contact  h1 {
+    font-size: 2rem;
+  }
+
+  .contact h2 {
+    font-size: 2.4rem;
+    margin-bottom: 0.5rem;
+  }
+
+  form {
+    max-width: 90%;
+  }
+
+  textarea {
+    height: 5rem;
+  }
+
+  .contact-btn {
+    font-size: 1.2rem;
+  }
+}
+
+@media(min-width:768px ){
+  
+  .contact h1{
+    font-size: 3rem;
+  }
+  
+  .contact h2{
+    margin-bottom:1rem ;
+    font-size: 3.4rem;
+  }
+}
+
+
+
+/* ---------------- MOBILE FIXES ---------------- */
+
+/* Very small phones (320–360px) */
+@media (max-width: 360px) {
+  .contact h1 {
+    font-size: 1.6rem;
+  }
+
+  .contact h2 {
+    font-size: 1.8rem;
+  }
+
+  input,
+  textarea {
+    font-size: 0.9rem;
+  }
+}
+

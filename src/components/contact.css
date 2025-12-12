@@ -134,11 +134,11 @@ textarea{
 
 
 
-@media (max-width: 414px) {
+@media (max-width: 480px) {
   .contact{
     display: flex;
     padding-top:1rem ;
-    width: 100vw;
+    /* width: 98vw; */
     border-radius: 1.2rem;
     justify-content: center;
     align-items: center;
@@ -176,11 +176,11 @@ textarea{
 
 }
 
-@media (max-width: 320px) {
+@media (max-width: 314px) {
   .contact{
     display: flex;
     padding-top:1rem ;
-    width: 25.5rem;
+    width: 98vw;
     border-radius: 1.2rem;
     justify-content: center;
     align-items: center;
@@ -198,15 +198,15 @@ textarea{
   }
   input{
     width: 16rem;
-    margin-left: 3rem;
+    margin-left: 8rem;
     padding: 0px 0px 0px 0.3rem;
   }
   label{
-    margin-left: 3rem;
+    margin-left: 8rem;
   }
   textarea{
-    width: 20rem;
-    margin-left: 3rem;
+    width: 13rem;
+    margin-left: 8rem;
     padding: 0.3px 0px 0px 0.3rem;
   }
   .contact-btn{
@@ -218,8 +218,8 @@ textarea{
 
 }
 
-@media(max-width: 414px){
+/* @media(max-width: 414px){
   .contact{
     width: 25.5rem;
   }
-}
+} */
