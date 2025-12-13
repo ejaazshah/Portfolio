@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@font-face {
+font-family:'ejaaz-custom-font';
+  src: url('../../public/font/pacifico/Pacifico.ttf'), format('TTF');
+}
+
+.about{
+  display: flex;  
+  justify-content:space-between;
+  /* height: 93vh; */
+  /* height: auto; */
+  width: 100%;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  margin-top: 5rem;
+  /* margin-bottom: 5rem; */
+  padding: 2rem;
+  gap: 3rem; 
+}
+.about-para{
+  font-size: 1.5rem;
+  font-family:'poppins';
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+.about-img > img{
+  flex:1fr;
+  border-radius: 15px;
+}
+@font-face {
+  font-family: 'Ejaazs-about';
+  src: url('../../public/font/handy_2/Handy.otf');
+}
+#about-h1{
+  width: 17rem;
+  font-family:'Ejaazs-about', sans-serif;
+  border-bottom: 2px solid rgb(19, 17, 129);
+  font-size: 7rem;
+  color: rgb(19, 17, 129);
+  margin-bottom: 2rem;
+}
+.about-content{
+  margin-top: 2rem;
+  padding: 1.3rem;
+  /* border: 1px solid red; */
+  flex: 0.5fr;
+  height: 100%;
+}
+.about-content , .about-img{
+  padding-top: 2rem;
+}
+.about-content > h3{
+  font-family:'Ejaazs-about';
+  font-weight: 700;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+.btn-about{
+  padding: 0.3rem;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  background-color:rgb(19, 17, 129) ;
+  font-family: 'ejaaz-custom-font';
+  color: #fff;
+  /* font-weight: 100; */
+  font-size: 1.5rem;
+}
+.btn-about:hover{
+  border: 1px solid rgb(19, 17, 129);
+  color:#a1a1a1;
+  cursor:url('../img/icons/HANDS\ CURSOR\ 2.cur'), default;
+  padding: 0.3rem;
+}

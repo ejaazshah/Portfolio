@@ -1,0 +1,136 @@
+@font-face {
+font-family:'ejaaz-custom-font';
+  src: url('../../public/font/pacifico/Pacifico.ttf'), format('TTF');
+}
+@font-face {
+  font-family: 'Ejaazs-about';
+  src: url('../../public/font/handy_2/Handy.otf');
+}
+
+
+.about {
+  /* display: flex; */
+  /* flex-direction: column; */
+  border-radius: 1.2rem;
+  width: 100%;
+  margin-top: 3rem;
+  padding: 1.5rem;
+  /* gap: 1rem; */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.about-content {
+  padding: 1rem;
+}
+
+#about-h1 {
+  
+  /* font-family:'Ejaazs-about' ; */
+  font-family: 'ejaaz-custom-font';
+  width: fit-content;
+  font-size: 2rem;
+  color: rgb(19, 17, 129);
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid rgb(19, 17, 129);
+}
+
+.about-content h3 {
+  /* font-family:'Ejaazs-about' ; */
+  font-family: 'ejaaz-custom-font';
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.about-para {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  font-family: 'poppins';
+}
+.btn-about{
+  padding: 0.3rem;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  background-color:rgb(19, 17, 129) ;
+  font-family: 'ejaaz-custom-font';
+  color: #fff;
+  /* font-weight: 100; */
+  font-size: 1rem;
+}
+.btn-about:hover{
+  border: 1px solid rgb(19, 17, 129);
+  color:#a1a1a1;
+  cursor:url('../../public/icons/HANDS\ CURSOR\ 2.cur'), default;
+  padding: 0.3rem;
+}
+
+/* ========== TABLET (≥768px) ========== */
+@media (min-width: 768px) {
+  .about {
+    padding: 2rem;
+  }
+
+  #about-h1 {
+    font-size: 2.5rem;
+  }
+
+  .about-content h3 {
+    font-size: 2rem;
+  }
+
+  .about-para {
+    font-size: 1.2rem;
+  }
+
+  .btn-about {
+    font-size: 1rem;
+  }
+}
+
+/* ========== LAPTOP (≥1024px) ========== */
+@media (min-width: 1024px) {
+  .about {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3rem;
+    padding: 3rem;
+  }
+
+  .about-content {
+    flex: 0.6;
+  }
+
+  .about-img {
+    flex: 0.4;
+  }
+
+  #about-h1 {
+    font-size: 3rem;
+  }
+
+  .about-content h3 {
+    font-size: 2.5rem;
+  }
+
+  .about-para {
+    font-size: 1.4rem;
+  }
+  .btn-about{
+    font-size: 1.6rem;
+  }
+}
+
+/* ========== LARGE SCREENS (≥1280px) ========== */
+@media (min-width: 1280px) {
+  #about-h1 {
+    font-size: 3rem;
+  }
+
+  .about-content h3 {
+    font-size: 2rem;
+    word-spacing: 0.1rem;
+  }
+
+  .about-para {
+    font-size: 1.5rem;
+  }
+}

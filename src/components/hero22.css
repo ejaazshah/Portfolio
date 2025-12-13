@@ -70,6 +70,7 @@
 #con{
   border: none;
   color: #fff;
+  font-size: 1rem;
 }
 
 
@@ -85,7 +86,7 @@
   /* height: 10rem; */
   /* display: none; */
   border-radius: 15px;
-  margin-top: -2rem;
+  /* margin-top: -2rem; */
 }
 
 
@@ -141,8 +142,8 @@
   .h3 { font-size: 1.9rem; }
   .hero-para { font-size: 1.5rem; }
   .img-hero img { width: 22rem; }
-  .btn-hero{
-    font-size: 1.5rem;
+  #con{
+    font-size: 2rem;
   }
   .hero-lets{
     font-size: 2.2rem;
