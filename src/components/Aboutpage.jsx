@@ -6,12 +6,12 @@ function Aboutpage(){
       <Nav />
 
     
-      <main>
+      <main className='about-main-container'>
         <div className="about-whoIAm">
           <div className="about-text-div">
             <h1 className="main-div-font-style">Who Am I</h1>
             <h3 className='hero-h3'>
-              I’m Ejaaz Shah, a front-end developer from South Asia (Afghanistan).
+              I’m Ejaaz Shah, a front-end developer from South Asia Afghanistan.
               I enjoy turning ideas into user-friendly web experiences using
               HTML, CSS, JavaScript, and React. With an eye for detail and always
               eager to expand my skills, I aim to build clean, functional, and
@@ -24,7 +24,7 @@ function Aboutpage(){
         <div className="more-about-me">
           <div className="education-div">
             <div className="education-text-div">
-              <h1 className="main-div-font-style">Education</h1>
+              <h1 className="main-div-font-style">Education</h1>  
               <ul className="education-ul">
                 <li>High School Graduate</li>
                 <li>Studying Computer Science</li>
@@ -35,6 +35,7 @@ function Aboutpage(){
               </ul>
             </div>
           </div>
+        </div>
 
           <div className="my-skills">
             <div className="skils-div">
@@ -60,7 +61,6 @@ function Aboutpage(){
               </div>
             </div>
           </div>
-        </div>
       </main>
     </>
 
