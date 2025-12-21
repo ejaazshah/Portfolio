@@ -22,10 +22,10 @@ function Nav(){
           {
 
             links.map((link, index)=> ( 
-              <>
+              <li key={index}>
               {/* <Link to={link.href} className={link.clsname}>{link.name}</Link> */}
-              <a href={link.href}  onClick={(e) => handleClick(link.href, e)}>{link.name}</a>
-              </>
+              <a  href={link.href}  onClick={(e) => handleClick(link.href, e)}>{link.name}</a>
+              </li>
               
               
             ) )

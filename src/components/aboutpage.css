@@ -1,0 +1,97 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GLOBAL */
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: #111;
+}
+
+/* MAIN */
+main {
+  padding: 1.2rem;
+}
+
+/* ---------- WHO AM I ---------- */
+.about-whoIAm {
+  margin-bottom: 2rem;
+}
+
+.about-text-div {
+  text-align: center;
+}
+
+.main-div-font-style {
+  font-size: 1.6rem;
+  margin-bottom: 0.8rem;
+}
+
+.about-text-div h3 {
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: #333;
+}
+
+/* ---------- EDUCATION & SKILLS ---------- */
+.more-about-me {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* EDUCATION */
+.education-div {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  padding: 1.2rem;
+  border-radius: 10px;
+}
+
+.education-ul {
+  list-style: none;
+  margin-top: 0.8rem;
+}
+
+.education-ul li {
+  font-size: 0.9rem;
+  padding: 0.4rem 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* SKILLS */
+.my-skills {
+  /* background: #f7f7f7; */
+  padding: 1.2rem;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.skills-ul {
+  list-style: none;
+  margin-top: 0.8rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.8rem;
+}
+
+.skills-ul li {
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.skills-ul i {
+  font-size: 1.1rem;
+}
+.hero-h3{
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  margin-top: 4rem;
+  height: 10rem;
+
+}

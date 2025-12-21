@@ -52,6 +52,13 @@ a:hover {
   border-bottom: 1px solid rgb(19, 17, 129);
   border-bottom-width: 0.1rem;
 }
+li{
+  list-style: none;
+}
+li:hover {
+   transform:  translateY(-7px);
+  color:rgb(19, 17, 129);  
+}
 .logo {
   width: 170px;
   color: #2DD4BF; 
