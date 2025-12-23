@@ -65,8 +65,8 @@ textarea {
   background: transparent;
   border-radius: 8px;
   font-size: 1rem;
-  padding-left: 0.6rem;
-  padding-top: 0.3rem;
+  padding-left: 1.8rem;
+  padding-top: 0.2rem;
   padding-bottom: 0.3rem;
 }
 
@@ -125,17 +125,11 @@ textarea {
 .phone-div i,
 .msg-div i {
   position: absolute;
-  top: 50%;
-  left: 0.6rem;
+  top: 2.9rem;
+  left: 0.4rem;
   transform: translateY(-50%);
   color: rgb(19,17,129);
 }
-
-/* Textarea icon fix */
-.msg-div i {
-  top: 1.2rem;
-}
-
 
 
 
