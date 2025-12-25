@@ -17,7 +17,7 @@ function Hero(){
         <button className="hero-btn">
           {/* <a href="#contact" className="btn-hero" id='con'>Contact Me</a>   */}
 
-          <A href='' name='Contact Me'  clasName='btn-hero' id='con'/>
+          <A href='#contact' name='Contact Me'  clasName='btn-hero' id='con'/>
         </button>
        
     </div>

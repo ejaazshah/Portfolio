@@ -23,17 +23,18 @@
 
 /* Title */
 .contact > h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: 'ejaaz-custom-font';
   color: rgb(19,17,129);
   border-bottom: 2px solid rgb(19,17,129);
   width: auto;
+  margin-top: 2rem;
   margin-bottom: 1rem;
   align-self: flex-start;
 }
 
 .contact > h2 {
-  font-size: 4rem;
+  font-size: 2.4rem;
   font-family: 'ejaaz-custom-font';
   align-self:center;
   margin-bottom: 1rem;
@@ -144,7 +145,7 @@ textarea {
   }
 
   .contact  h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .contact h2 {
@@ -173,7 +174,7 @@ textarea {
   
   .contact h2{
     margin-bottom:1rem ;
-    font-size: 3.4rem;
+    font-size: 3rem;
   }
 }
 
@@ -184,11 +185,11 @@ textarea {
 /* Very small phones (320–360px) */
 @media (max-width: 360px) {
   .contact h1 {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
   }
 
   .contact h2 {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
 
   input,

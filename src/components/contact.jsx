@@ -1,8 +1,8 @@
 import './contact22.css'
 function Contact() {
   return (
-    <div className="contact" id="contact">
-      <h1>Contact Me</h1>
+    <div className="contact" id="contact" >
+      <h1 >Contact Me</h1>
       <h2>Stay Connected</h2>
       <form>
         <div className="name-div">
